@@ -73,3 +73,16 @@ gem 'slim'
 #gem 'sprockets-rails', '2.0.0'
 gem 'sprockets-rails'
 ##2017/5/14 end#
+
+###ここから　2017/6/3###
+##Bootstrapの日本語フォントhonokaを追加
+#http://qiita.com/iguchi1124/items/7a2fe94d0897e217290d
+
+source 'https://rubygems.org'
+gem 'jquery-rails'
+gem 'jquery-ui-rails'
+gem 'bootstrap-sass',       '3.3.7.0'
+#gem 'sass-rails', '~> 5.0'
+gem 'honoka-rails', '>= 3.3.6.3'
+
+###ここからまで　2017/6/3###
