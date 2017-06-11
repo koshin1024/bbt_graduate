@@ -1,14 +1,69 @@
 <!DOCTYPE html>
+<html lang="ja-jp">
 <html>
-  <head>
-    <title>BbtGraduateSample</title>
-    <%= csrf_meta_tags %>
-	
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+<head>
+  <meta name="bbt_graduate_report" content="bbt_graduate_report">
+  <title>メンズ　ファッション</title>
 
-  <body>
+  <!--以下3つはデフォルトのまま。要編集-->
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <script type="text/javascript" src="/assets/footerFixed.js"></script>
+</head>
+
+<body>
+  <!-- Fixed navbar -->
+  <nav id="global_nav", class="navbar navbar-default">
+    <!--[http://bootstrap3.cyberlab.info/components/navbar.html#usage4]を参考に作成-->
+    <div class="navbar-header">
+      <%= link_to "画像を付ける予定", root_path, class:"navbar-brand" %>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav pull-right">
+        <!--今後の課題　classアクティブを入れるためにナビは個別は個別HTMLに入れる必要がある。-->
+        <li class="active"><%= link_to "sample1", "#" %></li>
+        <li><%= link_to "sample2", "#" %></li>
+        <li><%= link_to "sample3", "#" %></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- /navbar -->
+
+
+
+  <!-- content -->
+    <!-- yieldの部分に各htmlが入る-->
     <%= yield %>
-  </body>
+  <!-- /content -->
+
+
+  <!-- footer -->
+  <footer>
+    <div class="footer1">
+
+    </div>
+    <div class="footer2">
+      <ul>
+        <li><%= link_to "診断", select_path %></li>
+        <li><%= link_to "解説", explain_path %></li>
+        <li><%= link_to "新規登録", notes_path %></li>
+        <li><%= link_to "残作業リスト", task_path %></li>
+      </ul>
+    </div>
+    <div class="footer3">
+      <p>＠メンズファッション</p>
+    </div>
+  </footer>
+  <!-- /footer -->
+
+  <script type="text/javascript" src="/assets/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/assets/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/assets/modernizr-latest.js"></script>
+  <script type="text/javascript" src="/assets/jquery.cslider.js"></script>
+  <script type="text/javascript" src="/assets/jQuery.headroom.min.js"></script>
+  <script type="text/javascript" src="/assets/headroom.min.js"></script> 
+  <script type="text/javascript" src="/assets/custom.js"></script>
+
+</body>
 </html>

@@ -52,3 +52,6 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   # config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 end
+  #development環境で二重にjavascriptを読み込んで困るときの設定
+  #https://blog.scimpr.com/2013/01/27/assetscompile%E3%81%97%E7%9B%B4%E3%81%99%E3%81%A8%E3%81%8Dassetsclean%E3%81%97%E3%81%A6%E3%81%8A%E3%81%8F%E3%81%A8git%E3%81%8C%E8%87%AA%E5%8B%95%E3%81%A7rename%E3%81%97%E3%81%A6%E3%81%8F%E3%82%8C/
+  #config.serve_static_assets = false

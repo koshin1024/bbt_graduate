@@ -1,10 +1,69 @@
-<h1>Home#top</h1>
-<p>Find me in app/views/home/top.html.erb</p>
 
-<!-- トップページ　各ページへのリンクを記載する　-->
-<body> 
+<body>
+  <!-- Header -->
+  <header id="head">
+    <div class="container">
+      <div class="banner-content">
+        <div id="da-slider" class="da-slider">
+          <div class="da-slide">
+            <h2>イケメンって何か?</h2>
+            <p>イケメンとフツメンは何が違うのか?解説します</p>
+            <div class="da-img"></div>
+          </div>
+          <div class="da-slide">
+            <h2>診断</h2>
+            <p>ファッションとは洋服だけじゃない!<br>あなたに最適なファッションを診断します!</p>
+            <div class="da-img"></div>
+          </div>
+          <div class="da-slide">
+            <h2>ブランドとか</h2>
+            <p>ここには診断結果の最終ページへのリンクを書く。</p>
+            <div class="da-img"></div>
+          </div>
+          <nav class="da-arrows">
+              <span class="da-arrows-prev"></span>
+              <span class="da-arrows-next"></span>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--
+    <div id="da-slider" class="da-slider">
+      <div class="da-slide">
+        <h2>sample1 keyword<h2>
+        <p>sample1 content<p>
+        <a href="#" class="da-link">Read more</a>
+        <div class="da-img">
+          <img src="honoka/images/person_1.png" alt="表示できません" />
+        </div>
+      </div>
+      <div class="da-slide">
+        <h2>sample2 keyword<h2>
+        <p>sample2 content<p>
+        <a href="#" class="da-link">Read more</a>
+        <div class="da-img">
+          <img src="honoka/images/person_3.png" alt="表示できません" />
+        </div>
+      </div>
+      <nav class="da-arrows">
+        <span class="da-arrows-prev"></span>
+        <span class="da-arrows-next"></span>
+      </nav>
+    </div>
+  -->
+    <!-- /Header -->
+    <section id="top_page_introduction">
+      <div class=".col-md-3">
+        <h1>本サイトは卒業研究の一環で製作しているサイトです。現在工事中です。</h1>
+        <span><h3>ファッションとはトータルコーディネイト</h3></span>
+        <p>美容、体形、服装、髪型・・・etc、様々な要素の集合体がファッションです。<br>画一的なファッションから個々人に合った価値を高めるファッションを目指しましょう。<br>本サイトはそれをお手伝いするコンシェルジュサービスです。</p>
+      </div>
+    </section>
+<!--2017/6/12 以下リンクを除外する。    
     <%= link_to "診断", select_path %>
     <%= link_to "解説", explain_path %>
     <%= link_to "新規登録", notes_path %>
     <%= link_to "残作業リスト", task_path %>
+
 </body>

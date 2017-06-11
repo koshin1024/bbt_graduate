@@ -10,7 +10,7 @@ end
 gem 'rails', '~> 5.1.0'
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
-#2017/5/20@heroku‚ªPostgreSQL‚µ‚©Žg‚¦‚È‚¢‚Ì‚ÅC³
+#2017/5/20ï¿½@herokuï¿½ï¿½PostgreSQLï¿½ï¿½ï¿½ï¿½ï¿½gï¿½ï¿½ï¿½È‚ï¿½ï¿½Ì‚ÅCï¿½ï¿½
 #http://www.sejuku.net/blog/8178
 gem 'sqlite3', group: :development
 gem 'pg', group: :production
@@ -25,10 +25,10 @@ gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .coffee assets and views
 ##2017/5/14 start#
-#ƒGƒ‰[‚Å“®‚©‚È‚¢‚Ì‚ÅAVer‚ð—Ž‚Æ‚·BWindows‚ÆRuby‚ÌŒÝŠ·«‚Ì–â‘è‚ç‚µ‚¢B
-#yŽQlzhttp://bukinasi-se-biboroku.blog.so-net.ne.jp/2015-11-06-1
-#yŽQlzhttp://qiita.com/falcon8823/items/f4dc2b5a474869dff449
-#y’Ç‹Lzˆá‚Á‚½‚Ý‚½‚¢‚È‚Ì‚ÅŒ³‚É–ß‚µ‚½B
+#ï¿½Gï¿½ï¿½ï¿½[ï¿½Å“ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½Ì‚ÅAVerï¿½ð—Ž‚Æ‚ï¿½ï¿½BWindowsï¿½ï¿½Rubyï¿½ÌŒÝŠï¿½ï¿½ï¿½ï¿½Ì–ï¿½ï¿½ç‚µï¿½ï¿½ï¿½B
+#ï¿½yï¿½Qï¿½lï¿½zhttp://bukinasi-se-biboroku.blog.so-net.ne.jp/2015-11-06-1
+#ï¿½yï¿½Qï¿½lï¿½zhttp://qiita.com/falcon8823/items/f4dc2b5a474869dff449
+#ï¿½yï¿½Ç‹Lï¿½zï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý‚ï¿½ï¿½ï¿½ï¿½È‚Ì‚ÅŒï¿½ï¿½É–ß‚ï¿½ï¿½ï¿½ï¿½B
 
 gem 'coffee-rails', '~> 4.2'
 #gem 'coffee-script-source', '1.8.0'
@@ -64,8 +64,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 ##2017/5/14 start#
-#scaffold‚ÅMVCì¬Œã‚ÉƒAƒNƒZƒX‚·‚é‚Æ“®‚©‚È‚©‚Á‚½‚Ì‚Å’Ç‰Á
-#yŽQlzhttp://woshidan.hatenablog.com/entry/2014/03/25/224333
+#scaffoldï¿½ï¿½MVCï¿½ì¬ï¿½ï¿½ÉƒAï¿½Nï¿½Zï¿½Xï¿½ï¿½ï¿½ï¿½Æ“ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì‚Å’Ç‰ï¿½
+#ï¿½yï¿½Qï¿½lï¿½zhttp://woshidan.hatenablog.com/entry/2014/03/25/224333
 #gem 'sprockets', '2.11.0'
 gem 'sprockets'
 #gem 'slim', '2.0.0'
@@ -74,8 +74,8 @@ gem 'slim'
 gem 'sprockets-rails'
 ##2017/5/14 end#
 
-###‚±‚±‚©‚ç@2017/6/3###
-##Bootstrap‚Ì“ú–{ŒêƒtƒHƒ“ƒghonoka‚ð’Ç‰Á
+###ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@2017/6/3###
+##Bootstrapï¿½Ì“ï¿½ï¿½{ï¿½ï¿½tï¿½Hï¿½ï¿½ï¿½ghonokaï¿½ï¿½Ç‰ï¿½
 #http://qiita.com/iguchi1124/items/7a2fe94d0897e217290d
 
 source 'https://rubygems.org'
@@ -85,4 +85,4 @@ gem 'bootstrap-sass',       '3.3.7.0'
 #gem 'sass-rails', '~> 5.0'
 gem 'honoka-rails', '>= 3.3.6.3'
 
-###‚±‚±‚©‚ç‚Ü‚Å@2017/6/3###
+###ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ü‚Å@2017/6/3###
