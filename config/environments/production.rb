@@ -93,4 +93,4 @@ end
   # app/assets/javascripts配下のjsファイルはAssets Pipelineの対象外になるため、追加する。
   # 以下サイトを参考にした。
   # http://qiita.com/ttaka66/items/f92fdb066e3e228fbc8f
-  + config.assets.precompile += ['*.js']
+  #+ config.assets.precompile += ['*.js']
